@@ -141,11 +141,7 @@ const explore = () => (
               <tr>
                 <th scope="row">
                   <div className="coll_list_pp">
-                    <img
-                      className="lazy"
-                      src="./img/author/author-1.jpg"
-                      alt=""
-                    />
+                    <img className="lazy" src="./img/meta.png" alt="" />
                     <i className="fa fa-check" />
                   </div>
                   Meta
@@ -158,11 +154,7 @@ const explore = () => (
               <tr>
                 <th scope="row">
                   <div className="coll_list_pp">
-                    <img
-                      className="lazy"
-                      src="./img/author/author-2.jpg"
-                      alt=""
-                    />
+                    <img className="lazy" src="./img/nus.jpg" alt="" />
                     <i className="fa fa-check" />
                   </div>
                   NUS
@@ -175,11 +167,7 @@ const explore = () => (
               <tr>
                 <th scope="row">
                   <div className="coll_list_pp">
-                    <img
-                      className="lazy"
-                      src="./img/author/author-3.jpg"
-                      alt=""
-                    />
+                    <img className="lazy" src="./img/telegram.png" alt="" />
                     <i className="fa fa-check" />
                   </div>
                   Telegram
@@ -192,11 +180,7 @@ const explore = () => (
               <tr>
                 <th scope="row">
                   <div className="coll_list_pp">
-                    <img
-                      className="lazy"
-                      src="./img/author/author-4.jpg"
-                      alt=""
-                    />
+                    <img className="lazy" src="./img/snapchat.jpg" alt="" />
                     <i className="fa fa-check" />
                   </div>
                   Snapchat
@@ -209,11 +193,7 @@ const explore = () => (
               <tr>
                 <th scope="row">
                   <div className="coll_list_pp">
-                    <img
-                      className="lazy"
-                      src="./img/author/author-5.jpg"
-                      alt=""
-                    />
+                    <img className="lazy" src="./img/instagram.png" alt="" />
                     <i className="fa fa-check" />
                   </div>
                   Instagram

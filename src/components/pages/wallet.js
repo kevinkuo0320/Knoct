@@ -50,7 +50,10 @@ const wallet = () => (
           <div className="row m-10-hor">
             <div className="col-12">
               <h1 className="text-center">Company Page</h1>
-              <p className="text-center"> A page to view all the company </p>
+              <p className="text-center">
+                {" "}
+                A page to view all the company data collection record{" "}
+              </p>
             </div>
           </div>
         </div>

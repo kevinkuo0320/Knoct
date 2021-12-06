@@ -77,11 +77,7 @@ export default class Responsive extends Component {
               </div>
               <div className="nft_coll_pp">
                 <span onClick={() => window.open("/home", "_self")}>
-                  <img
-                    className="lazy"
-                    src="./img/author/author-1.jpg"
-                    alt=""
-                  />
+                  <img className="lazy" src="./img/meta.png" alt="" />
                 </span>
                 <i className="fa fa-check" />
               </div>
@@ -110,11 +106,7 @@ export default class Responsive extends Component {
               </div>
               <div className="nft_coll_pp">
                 <span onClick={() => window.open("/#", "_self")}>
-                  <img
-                    className="lazy"
-                    src="./img/author/author-2.jpg"
-                    alt=""
-                  />
+                  <img className="lazy" src="./img/discord.jpg" alt="" />
                 </span>
                 <i className="fa fa-check" />
               </div>
@@ -140,11 +132,7 @@ export default class Responsive extends Component {
               </div>
               <div className="nft_coll_pp">
                 <span onClick={() => window.open("/#", "_self")}>
-                  <img
-                    className="lazy"
-                    src="./img/author/author-3.jpg"
-                    alt=""
-                  />
+                  <img className="lazy" src="./img/snapchat.jpg" alt="" />
                 </span>
                 <i className="fa fa-check" />
               </div>
@@ -170,11 +158,7 @@ export default class Responsive extends Component {
               </div>
               <div className="nft_coll_pp">
                 <span onClick={() => window.open("/#", "_self")}>
-                  <img
-                    className="lazy"
-                    src="./img/author/author-4.jpg"
-                    alt=""
-                  />
+                  <img className="lazy" src="./img/instagram.png" alt="" />
                 </span>
                 <i className="fa fa-check" />
               </div>
@@ -192,7 +176,7 @@ export default class Responsive extends Component {
               <div className="nft_wrap">
                 <span>
                   <img
-                    src="./img/collections/coll-5.jpg"
+                    src="./img/KnoctLogo.png"
                     className="lazy img-fluid"
                     alt=""
                   />
@@ -200,11 +184,7 @@ export default class Responsive extends Component {
               </div>
               <div className="nft_coll_pp">
                 <span onClick={() => window.open("/#", "_self")}>
-                  <img
-                    className="lazy"
-                    src="./img/author/author-5.jpg"
-                    alt=""
-                  />
+                  <img className="lazy" src="./img/telegram.png" alt="" />
                 </span>
                 <i className="fa fa-check" />
               </div>
