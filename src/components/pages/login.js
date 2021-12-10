@@ -4,6 +4,7 @@ import { createGlobalStyle } from "styled-components";
 import { useState } from "react";
 
 import { Link } from "@reach/router";
+import { Row, Col, Container } from "react-bootstrap";
 
 const NavLink = props => (
   <Link
@@ -39,7 +40,7 @@ const GlobalStyles = createGlobalStyle`
   header#myHeader .logo .d-none{
     display: block !important;
   }
-  @media only screen and (max-width: 1199px) {
+ /* @media only screen and (max-width: 1199px) {
     .navbar{
       background: #403f83;
     }
@@ -48,7 +49,7 @@ const GlobalStyles = createGlobalStyle`
     }
     .item-dropdown .dropdown a{
       color: #fff !important;
-    }
+    }*/
   }
 `;
 
@@ -59,12 +60,12 @@ export default function LoginTwo() {
 
       <section
         className="jumbotron breadcumb no-bg"
-        style={{ backgroundImage: `url(${"./img/background/subheader.jpg"})` }}
+        /*style={{ backgroundImage: `url(${"./img/background/subheader.jpg"})` }}*/
       >
         <div className="mainbreadcumb">
           <div className="container">
             <div className="row align-items-center">
-              <div
+              {/*<div
                 className="col-lg-5 text-light wow fadeInRight"
                 data-wow-delay=".5s"
               >
@@ -73,71 +74,98 @@ export default function LoginTwo() {
                 <p className="lead">
                   Log in by Scanning QR Code or by user account
                 </p>
-              </div>
-              <div
+              </div>*/}
+              {/* <div
                 className="col-lg-4 offset-lg-2 wow fadeIn"
                 data-wow-delay=".5s"
-              >
-                <div className="box-login">
-                  <h3 className="mb10">Log In</h3>
-                  <p>
-                    Dont have an account yet? create a new account{" "}
-                    <NavLink to="/register">
-                      {" "}
-                      <span>here</span>.
-                    </NavLink>
-                  </p>
-                  <form
-                    name="contactForm"
-                    id="contact_form"
-                    className="form-border"
-                    action="#"
-                  >
-                    <div className="field-set">
-                      <input
-                        type="text"
-                        name="email"
-                        id="email"
-                        className="form-control"
-                        placeholder="username"
-                      />
+              >*/}
+              <div className="box-login">
+                <h3 className="mb10">Sign In</h3>
+                <p>
+                  New user?{" "}
+                  <NavLink to="/register">
+                    {" "}
+                    <span>Create an account</span>.
+                  </NavLink>
+                </p>
+                <form
+                  name="contactForm"
+                  id="contact_form"
+                  className="form-border"
+                  action="#"
+                >
+                  <div className="field-set">
+                    <input
+                      type="text"
+                      name="email"
+                      id="email"
+                      className="form-control"
+                      placeholder="Company Email"
+                    />
+                  </div>
+
+                  <div className="field-set">
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      className="form-control"
+                      placeholder="OTP"
+                    />
+                  </div>
+
+                  <div>
+                    <input
+                      type="checkbox"
+                      id="checkbox-sign-in"
+                      name="keep-sign-in"
+                    />
+                    <span> Keep me signed In </span>
+                  </div>
+
+                  <div className="spacer-single" />
+
+                  <div className="field-set">
+                    <input
+                      type="submit"
+                      id="send_message"
+                      value="Sign In"
+                      className="btn btn-main btn-fullwidth color-2"
+                    />
+                  </div>
+
+                  <div className="clearfix" />
+
+                  <div className="spacer-single" />
+                  <ul className="list s3">
+                    <li>------- Or Sign with -------</li>
+                  </ul>
+
+                  <div className="de-flex-col-1">
+                    <div className="social-icons">
+                      <span onClick={() => window.open("", "_self")}>
+                        <i className="fa fa-facebook fa-lg" />
+                      </span>
+
+                      <span onClick={() => window.open("", "_self")}>
+                        <i className="fa fa-twitter fa-lg" />
+                      </span>
+
+                      <span onClick={() => window.open("", "_self")}>
+                        <i className="fa fa-linkedin fa-lg" />
+                      </span>
+
+                      <span onClick={() => window.open("", "_self")}>
+                        <i className="fa fa-google fa-lg" />
+                      </span>
                     </div>
-
-                    <div className="field-set">
-                      <input
-                        type="password"
-                        name="password"
-                        id="password"
-                        className="form-control"
-                        placeholder="password"
-                      />
-                    </div>
-
-                    <div className="field-set">
-                      <input
-                        type="submit"
-                        id="send_message"
-                        value="Submit"
-                        className="btn btn-main btn-fullwidth color-2"
-                      />
-                    </div>
-
-                    <div className="clearfix" />
-
-                    <div className="spacer-single" />
-                    <ul className="list s3">
-                      <li>Login with:</li>
-
-                      <li>
-                        <span>QR Code</span>
-                      </li>
-                    </ul>
-                  </form>
-                </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
         </div>
+        {/*  </div>*/}
       </section>
 
       <Footer />

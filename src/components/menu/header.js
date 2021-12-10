@@ -93,19 +93,7 @@ const Header = function() {
           <div className="logo px-0">
             <div className="navbar-title navbar-item">
               <NavLink to="/">
-                {/*<img
-                  src="./img/logo.png"
-                  className="img-fluid d-block"
-                  alt="#"
-                />
-                <img src="./img/logo-2.png" className="img-fluid d-3" alt="#" />
-                <img
-                  src="./img/logo-light.png"
-                  className="img-fluid d-none"
-                  alt="#"
-                />*/}
                 <img alt="" className="f-logo d-1" src="./img/KnoctLogo.png" />
-                {/*Knoct*/}
               </NavLink>
             </div>
           </div>
@@ -121,7 +109,7 @@ const Header = function() {
           </div>*/}
 
           <BreakpointProvider>
-            {/*<Breakpoint l down>
+            <Breakpoint l down>
               {showmenu && (
                 <div className="menu">
                   <div className="navbar-item">
@@ -130,31 +118,16 @@ const Header = function() {
                         className="dropdown-custom dropdown-toggle btn"
                         onClick={handleBtnClick}
                       >
-                        Home Page
+                        Account
                       </div>
                       {openMenu && (
                         <div className="item-dropdown">
                           <div className="dropdown" onClick={closeMenu}>
-                            <NavLink to="/" onClick={() => btn_icon(!showmenu)}>
-                              Homepage
-                            </NavLink>
                             <NavLink
-                              to="/home1"
+                              to="/rangking"
                               onClick={() => btn_icon(!showmenu)}
                             >
-                              Homepage 1
-                            </NavLink>
-                            <NavLink
-                              to="/home2"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              Homepage 2
-                            </NavLink>
-                            <NavLink
-                              to="/home3"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              Homepage 3
+                              View Account History
                             </NavLink>
                           </div>
                         </div>
@@ -167,7 +140,7 @@ const Header = function() {
                         className="dropdown-custom dropdown-toggle btn"
                         onClick={handleBtnClick1}
                       >
-                        Collections
+                        Knoct Web
                       </div>
                       {openMenu1 && (
                         <div className="item-dropdown">
@@ -176,43 +149,7 @@ const Header = function() {
                               to="/explore"
                               onClick={() => btn_icon(!showmenu)}
                             >
-                              Explore
-                            </NavLink>
-                            <NavLink
-                              to="/explore2"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              Explore 2
-                            </NavLink>
-                            <NavLink
-                              to="/rangking"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              Rangking
-                            </NavLink>
-                            <NavLink
-                              to="/colection"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              Test123
-                            </NavLink>
-                            <NavLink
-                              to="/ItemDetail"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              Items Details
-                            </NavLink>
-                            <NavLink
-                              to="/Auction"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              Live Auction
-                            </NavLink>
-                            <NavLink
-                              to="/helpcenter"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              Help Center
+                              Company Page
                             </NavLink>
                           </div>
                         </div>
@@ -225,88 +162,32 @@ const Header = function() {
                         className="dropdown-custom dropdown-toggle btn"
                         onClick={handleBtnClick2}
                       >
-                        Pages
+                        Setting
                       </div>
                       {openMenu2 && (
                         <div className="item-dropdown">
                           <div className="dropdown" onClick={closeMenu2}>
-                            <NavLink
-                              to="/Author"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              Author
-                            </NavLink>
-                            <NavLink
-                              to="/wallet"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              Wallet
-                            </NavLink>
-                            <NavLink
-                              to="/create"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              Create
-                            </NavLink>
-                            <NavLink
-                              to="/create2"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              Create 2
-                            </NavLink>
-                            <NavLink
-                              to="/createOptions"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              Create options
-                            </NavLink>
-                            <NavLink
-                              to="/news"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              News
-                            </NavLink>
-                            <NavLink
-                              to="/works"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              Gallery
-                            </NavLink>
-                            <NavLink
-                              to="/login"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              login
-                            </NavLink>
-                            <NavLink
-                              to="/loginTwo"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              login 2
-                            </NavLink>
-                            <NavLink
-                              to="/register"
-                              onClick={() => btn_icon(!showmenu)}
-                            >
-                              Register
-                            </NavLink>
                             <NavLink
                               to="/contact"
                               onClick={() => btn_icon(!showmenu)}
                             >
                               Contact Us
                             </NavLink>
+
+                            <NavLink to="/" onClick={() => btn_icon(!showmenu)}>
+                              Help Centre
+                            </NavLink>
                           </div>
                         </div>
                       )}
                     </div>
                   </div>
-                  <div className="navbar-item">
+                  {/* <div className="navbar-item">
                     <NavLink to="/activity" onClick={() => btn_icon(!showmenu)}>
                       Staking
                     </NavLink>
-                  </div>
-                  <div className="navbar-item">
+                  </div>*/}
+                  {/*<div className="navbar-item">
                     <div ref={ref3}>
                       <div
                         className="dropdown-custom dropdown-toggle btn"
@@ -369,10 +250,10 @@ const Header = function() {
                         </div>
                       )}
                     </div>
-                  </div>
+                  </div>*/}
                 </div>
               )}
-            </Breakpoint>*/}
+            </Breakpoint>
 
             <Breakpoint xl>
               <div className="menu">
